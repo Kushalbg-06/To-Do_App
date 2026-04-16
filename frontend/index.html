@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+ <h1>Todo App</h1>
+    <div class="top-card">
+        <div>
+            <h2>Progress</h2>
+            <div class="progress-bar">
+                <div id="progress"></div>
+            </div>
+        </div>
+
+        <div class="circle" id="countCircle">0/0</div>
+    </div>
+
+    <div class="input-box">
+        <input id="taskInput" placeholder="Write your task">
+        <button onclick="addTask()">+</button>
+    </div>
+
+    <div id="list"></div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
