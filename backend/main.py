@@ -11,9 +11,9 @@ app = FastAPI(title="TasK_Manager")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # allow all (for testing)
+    allow_origins=["*"],  
     allow_credentials=True,
-    allow_methods=["*"],  # allow all methods (GET, POST, PUT, DELETE)
+    allow_methods=["*"],  
     allow_headers=["*"],
 )
 
