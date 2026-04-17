@@ -1,4 +1,4 @@
-const API = "https://todo-backend-f205.onrender.com";
+const API = "http://127.0.0.1:8000";
 
 
 function loadTasks() {
