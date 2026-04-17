@@ -86,7 +86,7 @@ function enableEdit(id) {
     input.focus();
 }
 
-// Save on Enter
+//  Edit Save on Enter
 function handleEnter(event, id) {
     if (event.key === "Enter") {
         let input = document.getElementById(`input-${id}`);
