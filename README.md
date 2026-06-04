@@ -78,9 +78,5 @@ cd frontend
 open index.html
 ```
 
----
 
-## 👨‍💻 Author
-
-Kushal B G
 
