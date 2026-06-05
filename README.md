@@ -23,14 +23,7 @@ This app allows users to create and manage tasks easily.
 ### Backend
 
 * FastAPI
-* SQLite
-
-### Deployment
-
-* Vercel (Frontend)
-* Render (Backend)
-
----
+* SQLite 
 
 ## 📂 Project Structure
 
